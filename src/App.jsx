@@ -4,7 +4,12 @@ import Tabs from "./Components/Tabbing";
 function App() {
   return (
     <>
-      <Tabs />
+      <div
+        className="h-screen w-screen bg-slate-700 pt-40
+      "
+      >
+        <Tabs />
+      </div>
     </>
   );
 }
